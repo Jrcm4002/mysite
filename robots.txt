@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mysite-delta-fawn.vercel.app/sitemap.xml
