@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoughts • A Minimal Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Thoughts</div>
+            <div class="nav-links">
+                <a href="#posts">Posts</a>
+                <a href="#about">About</a>
+                <button id="theme-toggle">🌓</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Thoughts</h1>
+            <p class="subtitle">A minimal blog about ideas, technology, and life.</p>
+            <a href="#posts" class="cta-button">Read the latest posts</a>
+        </div>
+    </header>
+
+    <section id="posts" class="posts-section">
+        <div class="container">
+            <h2>Latest Posts</h2>
+            <div class="posts-grid">
+                <article class="post-card" onclick="showPost(0)">
+                    <div class="post-meta">May 28, 2026 • 8 min read</div>
+                    <h3>The Quiet Power of Boredom</h3>
+                    <p>Why doing nothing might be the most productive thing you can do.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(1)">
+                    <div class="post-meta">May 22, 2026 • 12 min read</div>
+                    <h3>Why I Deleted All My Social Media Apps</h3>
+                    <p>Three months later and what actually changed.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(2)">
+                    <div class="post-meta">May 15, 2026 • 6 min read</div>
+                    <h3>The Future of Personal Websites</h3>
+                    <p>Why owning your own corner of the internet still matters.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(3)">
+                    <div class="post-meta">May 8, 2026 • 10 min read</div>
+                    <h3>Small Tools That Changed How I Work</h3>
+                    <p>Five tiny utilities that made a surprisingly big difference.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About</h2>
+            <p>Thoughts is a personal blog exploring ideas at the intersection of technology, creativity, and mindful living. Written by a curious human who believes in the power of thoughtful writing.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Thoughts. Built with ❤️ and simple HTML.</p>
+        </div>
+    </footer>
+
+    <!-- Post Modal -->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePost()">&times;</span>
+            <div id="post-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
