@@ -68,6 +68,40 @@ const posts = [
             <p><strong>4. One browser tab at a time</strong> — Surprisingly effective at reducing context switching.</p>
             <p><strong>5. Weekly review</strong> — 30 minutes every Sunday to look at what worked and what didn't.</p>
         `
+    },
+    {
+        title: "The Beauty of Analog Tools",
+        date: "June 2, 2026",
+        readTime: "9 min read",
+        content: `
+            <p>In an age of apps and notifications, I've found myself returning to simple analog tools — especially a good notebook and fountain pen.</p>
+            <p>There's something deeply satisfying about writing by hand. The physical act slows me down and helps ideas form more clearly than typing ever does.</p>
+            <p>I don't romanticize paper for everything. But for thinking, planning, and capturing ideas, analog tools still win for me.</p>
+            <p>Try keeping a small notebook with you for a week. You might be surprised how different your thinking feels.</p>
+        `
+    },
+    {
+        title: "How to Think Better",
+        date: "May 30, 2026",
+        readTime: "7 min read",
+        content: `
+            <p>Over the years I've collected a few simple mental models that dramatically improved how I think and make decisions.</p>
+            <p><strong>First principles thinking</strong> — Break problems down to their most basic truths instead of copying what others do.</p>
+            <p><strong>Inversion</strong> — Instead of asking "How do I succeed?", ask "How do I fail?" and then avoid those things.</p>
+            <p><strong>Opportunity cost</strong> — Every choice you make means you're choosing not to do something else.</p>
+            <p>These aren't complicated, but consistently applying them has made a huge difference in my life.</p>
+        `
+    },
+    {
+        title: "Why I Journal Every Morning",
+        date: "May 25, 2026",
+        readTime: "11 min read",
+        content: `
+            <p>Every morning I spend 10–15 minutes writing in a journal. It's become one of the most valuable parts of my day.</p>
+            <p>Journaling helps me process emotions, spot patterns in my thinking, and start the day with clarity instead of reacting to whatever comes at me.</p>
+            <p>I don't follow any strict format. Some days it's gratitude, other days it's just dumping whatever is on my mind. The important part is showing up consistently.</p>
+            <p>If you've never tried it, start with just three sentences every morning. The habit is more important than the content.</p>
+        `
     }
 ];
 

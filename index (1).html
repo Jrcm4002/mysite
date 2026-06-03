@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoughts • A Minimal Blog About Ideas &amp; Life</title>
+    <meta name="description" content="A calm, thoughtful blog exploring ideas at the intersection of technology, creativity, and mindful living. New posts on boredom, digital minimalism, and personal growth.">
+    <meta name="keywords" content="blog, thoughts, minimalism, technology, personal growth, digital detox">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Thoughts • A Minimal Blog">
+    <meta property="og:description" content="A calm, thoughtful blog exploring ideas at the intersection of technology, creativity, and mindful living.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mysite-delta-fawn.vercel.app/">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Thoughts</div>
+            <div class="nav-links">
+                <a href="#posts">Posts</a>
+                <a href="#about">About</a>
+                <button id="theme-toggle">🌓</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Thoughts</h1>
+            <p class="subtitle">A minimal blog about ideas, technology, and life.</p>
+            <a href="#posts" class="cta-button">Read the latest posts</a>
+        </div>
+    </header>
+
+    <section id="posts" class="posts-section">
+        <div class="container">
+            <h2>Latest Posts</h2>
+            <div class="posts-grid">
+                <article class="post-card" onclick="showPost(0)">
+                    <div class="post-meta">May 28, 2026 • 8 min read</div>
+                    <h3>The Quiet Power of Boredom</h3>
+                    <p>Why doing nothing might be the most productive thing you can do.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(1)">
+                    <div class="post-meta">May 22, 2026 • 12 min read</div>
+                    <h3>Why I Deleted All My Social Media Apps</h3>
+                    <p>Three months later and what actually changed.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(2)">
+                    <div class="post-meta">May 15, 2026 • 6 min read</div>
+                    <h3>The Future of Personal Websites</h3>
+                    <p>Why owning your own corner of the internet still matters.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(3)">
+                    <div class="post-meta">May 8, 2026 • 10 min read</div>
+                    <h3>Small Tools That Changed How I Work</h3>
+                    <p>Five tiny utilities that made a surprisingly big difference.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(4)">
+                    <div class="post-meta">June 2, 2026 • 9 min read</div>
+                    <h3>The Beauty of Analog Tools</h3>
+                    <p>Why I still use paper and pen in a digital world.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(5)">
+                    <div class="post-meta">May 30, 2026 • 7 min read</div>
+                    <h3>How to Think Better</h3>
+                    <p>Simple mental models that improved my decision making.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+
+                <article class="post-card" onclick="showPost(6)">
+                    <div class="post-meta">May 25, 2026 • 11 min read</div>
+                    <h3>Why I Journal Every Morning</h3>
+                    <p>The surprising benefits of writing by hand first thing.</p>
+                    <div class="read-more">Read more →</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About</h2>
+            <p>Thoughts is a personal blog exploring ideas at the intersection of technology, creativity, and mindful living. Written by a curious human who believes in the power of thoughtful writing.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Thoughts. Built with ❤️ and simple HTML.</p>
+        </div>
+    </footer>
+
+    <!-- Post Modal -->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePost()">&times;</span>
+            <div id="post-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a05d39820edb2daa',t:'MTc4MDQ3NDI2MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
