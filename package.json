@@ -1,0 +1,23 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "A minimal blog about ideas, technology, and life",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jrcm4002/mysite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jrcm4002/mysite/issues"
+  },
+  "homepage": "https://github.com/Jrcm4002/mysite#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
